@@ -79,8 +79,8 @@ public class Hotel {
         }
         return null;
     }
-
 	public void cadastrarQuarto(int numero, String tipo, double precoDiario) {
-		
+		        Quarto novoQuarto = new Quarto(numero, tipo, precoDiario);
+		        listaQuartos.add(novoQuarto);
 	}
 }
